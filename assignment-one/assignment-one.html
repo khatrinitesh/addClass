@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Respoitory</title>
+	<link rel="stylesheet" href="css/custom.css">	
+</head>
+<body>
+	<button>Click me</button>
+
+	<div class="content"></div>
+
+	<script type='text/javascript' src='js/jquery-1.12.0.min.js'></script>
+	<script type='text/javascript'>
+		$(document).ready(function(){
+			$('button').click(function(){
+				$('.content').addClass('active');
+			});
+		});
+	</script>
+</body>
+</html>
